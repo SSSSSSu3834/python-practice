@@ -7,7 +7,7 @@ print(max(5,12)) #12
 #최솟값
 print(min(5,12)) #5
 #반올림
-print(round(3.14)) #3
+print(round(3.14,1 )) #3 (콤마뒤는 소수점 아래자리수)
 print(round(4.99)) #5
 
 
