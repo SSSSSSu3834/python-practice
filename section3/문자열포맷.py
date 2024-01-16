@@ -26,4 +26,4 @@ print("나는 {age}살이며, {color}색을 좋아해요" .format(age = 20, colo
 #방법4 : 실제 변수에 저장된 값 쓰기.
 age = 20
 color = "빨간"
-print(f"나는 {age}살이고 {color}색을 좋아해요 ")
+print("나는 {age}살이고 {color}색을 좋아해요 ")

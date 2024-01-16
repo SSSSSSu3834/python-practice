@@ -19,7 +19,7 @@ def withdraw(잔액, 출금금액):
 # 저녁 출금으로인한 수수료
 def withdraw_night(잔액, 출금금액):
     commission = 100 #수수료 100원
-    return commission, 잔액 - 출금금액- commission  #튜플형식으로 여래가 값 반환
+    return commission, 잔액 - 출금금액- commission  #튜플형식으로 여러개 값 반환
 
 잔액 = 0
 잔액 = deposit(잔액, 1500)
